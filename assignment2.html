@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Center</title>
+    <link rel="stylesheet" href="styles.css">
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #ffffff;
+        padding: 20px 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .logo h1 {
+        margin: 0;
+        font-size: 24px;
+        color: #d83a37;
+    }
+    
+    .logo p {
+        margin: 0;
+        font-size: 12px;
+        color: #333333;
+    }
+    
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    nav ul li {
+        margin-left: 20px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #333333;
+        font-weight: bold;
+    }
+    
+    .donate-btn {
+        background-color: #d83a37;
+        color: #ffffff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    
+    .hero {
+        background-image: url('path/to/your/image.jpg'); /* Replace with your image path */
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        position: relative;
+        color: #ffffff;
+    }
+    
+    .hero-content {
+        position: absolute;
+        bottom: 50px;
+        left: 50px;
+    }
+    
+    .hero h2 {
+        font-size: 48px;
+        margin: 0;
+    }
+    
+    .hero p {
+        font-size: 24px;
+        margin: 10px 0;
+    }
+    
+    .cta-btn {
+        background-color: #333333;
+        color: #ffffff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    
+    footer {
+        background-color: #f4f4f4;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    .subscribe-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .subscribe-form input[type="email"] {
+        padding: 10px;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        width: 250px;
+    }
+    
+    .subscribe-form button {
+        background-color: #d83a37;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>dream center</h1>
+                <p>Care Support Service</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">What We Do</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="donate-btn">Donate Now</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Making More of Every Gift</h2>
+            <p>No child should be forgotten</p>
+            <a href="#" class="cta-btn">What We Do</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <form class="subscribe-form">
+                <label for="email">Sign Up & Stay Connected</label>
+                <input type="email" id="email" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
